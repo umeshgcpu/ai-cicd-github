@@ -1,7 +1,6 @@
 """Tests for app.py - you'll add more!"""
 
-from app import add, is_even, reverse_string
-
+from app import add, is_even, reverse_string, multiply
 
 class TestMath:
     """Tests for math functions."""
@@ -11,13 +10,9 @@ class TestMath:
 
     def test_add_negative(self):
         assert add(-1, -1) == -2
-
-def multiply(a: int, b: int) -> int:
-        """Multiply two int. """
-        return a*b
     
-def test_multiple(self):
-    """Test multiplying two positive numbers."""
+    def test_multiple(self):
+        """Test multiplying two positive numbers."""
     assert multiply(9, 9) == 81
 
 
