@@ -2,6 +2,8 @@
 
 Learn GitHub Actions by building a CI pipeline for a Python project.
 
+https://learn.nextwork.org/projects/ai-cicd-github?track=high
+
 > **Part of a 4-project series!** This repo grows with you:
 > 1. **Project 1** (this one): Basic CI workflow
 > 2. **Project 2**: AI code review on every PR
