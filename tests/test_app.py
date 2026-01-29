@@ -12,6 +12,14 @@ class TestMath:
     def test_add_negative(self):
         assert add(-1, -1) == -2
 
+def multiply(a: int, b: int) -> int:
+        """Multiply two int. """
+        return a*b
+    
+def test_multiple(self):
+    """Test multiplying two positive numbers."""
+    assert multiply(9, 9) == 18  # This is wrong!
+
 
 class TestStrings:
     """Tests for string functions."""
@@ -22,3 +30,4 @@ class TestStrings:
     def test_is_even(self):
         assert is_even(4) is True
         assert is_even(3) is False
+
